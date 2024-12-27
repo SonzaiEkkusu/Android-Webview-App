@@ -31,7 +31,7 @@ public class MainActivity extends Activity {
         WebSettings webSettings = mWebView.getSettings();
         webSettings.setJavaScriptEnabled(true);
         mWebView.setWebViewClient(new HelloWebViewClient());
-        mWebView.loadUrl("http://172.187.128.113:3000/"); 
+        mWebView.loadUrl("https://otp.meow-xl.id"); 
     }
     private static class HelloWebViewClient extends WebViewClient
     {
